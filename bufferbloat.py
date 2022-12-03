@@ -40,7 +40,7 @@ parser.add_argument('--bw-net', '-b',
 parser.add_argument('--delay',
                     type=float,
                     help="Link propagation delay (ms)",
-                    required=True).
+                    required=True)
 
 parser.add_argument('--dir', '-d',
                     help="Directory to store outputs",
